@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Endy-Guff/portfolio-react/static/css/main.315df74a.css",
-    "main.js": "/Endy-Guff/portfolio-react/static/js/main.f15f41ce.js",
+    "main.js": "/Endy-Guff/portfolio-react/static/js/main.b5fc0082.js",
     "static/js/787.1ed0c42c.chunk.js": "/Endy-Guff/portfolio-react/static/js/787.1ed0c42c.chunk.js",
     "static/media/person.png": "/Endy-Guff/portfolio-react/static/media/person.fceba2bfe729dccbc55e.png",
     "static/media/JetBrainsMono-Bold.woff2": "/Endy-Guff/portfolio-react/static/media/JetBrainsMono-Bold.75885bf04057d4697ae5.woff2",
@@ -27,11 +27,11 @@
     "static/media/telegram.svg": "/Endy-Guff/portfolio-react/static/media/telegram.55c22a1680836c83b6635b89ccc6383e.svg",
     "static/media/html.svg": "/Endy-Guff/portfolio-react/static/media/html.bb777435bd5822b6bec4c723e352629f.svg",
     "main.315df74a.css.map": "/Endy-Guff/portfolio-react/static/css/main.315df74a.css.map",
-    "main.f15f41ce.js.map": "/Endy-Guff/portfolio-react/static/js/main.f15f41ce.js.map",
+    "main.b5fc0082.js.map": "/Endy-Guff/portfolio-react/static/js/main.b5fc0082.js.map",
     "787.1ed0c42c.chunk.js.map": "/Endy-Guff/portfolio-react/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.315df74a.css",
-    "static/js/main.f15f41ce.js"
+    "static/js/main.b5fc0082.js"
   ]
 }

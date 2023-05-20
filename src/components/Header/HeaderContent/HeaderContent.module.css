@@ -1,0 +1,13 @@
+.img{
+    width: 600px;
+    position: absolute;
+    bottom: 0;
+    right: -100px;
+    z-index: 0;
+}
+
+@media (max-width: 990px) {
+    .img{
+        display: none;
+    }
+}

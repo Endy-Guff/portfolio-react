@@ -1,0 +1,29 @@
+.wrapper{
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-basis: 180px;
+}
+
+.item{
+    background: #2A2B2F;
+    width: 180px;
+    height: 180px;
+    box-shadow: inset -4px -4px 13px rgba(115, 115, 115, 0.13), inset 4px 4px 8px rgba(0, 0, 0, 0.14);
+    border-radius: 140px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.name{
+    font-family: "JetBrains Mono";
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 13px;
+    color: #fff;
+
+    text-align: center;
+}

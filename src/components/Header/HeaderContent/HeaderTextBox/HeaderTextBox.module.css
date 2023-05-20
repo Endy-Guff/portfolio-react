@@ -1,0 +1,62 @@
+.wrapper{
+    position: relative;
+    margin-top: 150px;
+    margin-left: 15px;
+    z-index: 1;
+}
+
+.title{
+    font-family: 'Mensa';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 78px;
+    line-height: 82px;
+    color: #fff;
+
+    margin-bottom: 30px;
+}
+
+.title span{
+    color: #14F4D8;
+}
+
+.subtitle{
+    font-family: 'JetBrains Mono';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 42px;
+    color: #FFFFFF;
+}
+
+.titleBg{
+    position: absolute;
+    top: -110px;
+    left: -15px;
+    pointer-events: none;
+}
+
+@media (max-width: 700px) {
+    .title{
+        font-size: 59px;
+        line-height: 60px;
+        margin-bottom: 22px;
+    }
+    .titleBg{
+        width: 500px;
+        top: -81px;
+    }
+    .subtitle{
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 520px) {
+    .title{
+        font-size: 55px;
+        line-height: 46px;
+        margin-bottom: 19px;
+    }
+    .subtitle{
+        font-size: 25px;
+    }
+}

@@ -7,7 +7,7 @@ import example from '../../../assets/img/portfolio/example.png'
 
 export const Portfolio = () => {
     return (
-        <div className={s.wrapper}>
+        <div className={s.wrapper} id={'portfolio'}>
             <Title title={'Portfolio'} />
             <div className={s.portfolioItems}>
                 <Item name={'Name'} img={example} link={'#'}/>

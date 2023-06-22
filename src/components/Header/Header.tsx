@@ -5,7 +5,7 @@ import {HeaderContent} from "./HeaderContent/HeaderContent";
 
 export const Header = () => {
     return (
-        <div className={s.wrapper}>
+        <div className={s.wrapper} id={'home'}>
             <div className={'container'}>
                 <div className={s.inner}>
                     <HeaderTop/>

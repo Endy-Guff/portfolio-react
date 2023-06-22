@@ -5,7 +5,7 @@ import {FormInput} from "./FormInput/FormInput";
 
 export const Contact = () => {
     return (
-        <div className={s.wrapper}>
+        <div className={s.wrapper} id={'contact'}>
             <Title title={'Contact With Me'}/>
             <div className={s.formBox}>
                 <form className={s.form} action="#">

@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './HeaderTextBox.module.css'
 import titleBg from '../../../../assets/img/headerTitle-bg.svg'
+import ReactTypingEffect from "react-typing-effect";
 
 
 export const HeaderTextBox = () => {
@@ -12,7 +13,11 @@ export const HeaderTextBox = () => {
                 Im <span>Andrey</span>, <br/>
                 Web developer
             </h1>
-            <h3 className={s.subtitle}>front-end developer</h3>
+            {/*<h3 className={s.subtitle}>front-end developer</h3>*/}
+            <ReactTypingEffect className={s.subtitle}
+                               text={'front-end developer'}
+                               eraseDelay={10000000}
+            />
         </div>
     );
 };

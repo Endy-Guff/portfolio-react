@@ -15,7 +15,7 @@ import figma from '../../../assets/img/skills/figma.svg'
 
 export const Skills = () => {
     return (
-        <div className={s.wrapper}>
+        <div className={s.wrapper} id={'skills'}>
             <Title title={'Skills'}/>
             <div className={s.skillsItems}>
                 <Item img={html} name={'HTML'} />

@@ -12,12 +12,14 @@ import sass from '../../../assets/img/skills/sass.svg'
 import git from '../../../assets/img/skills/git.svg'
 import ps from '../../../assets/img/skills/ps.svg'
 import figma from '../../../assets/img/skills/figma.svg'
+import {Fade} from "react-awesome-reveal";
 
 export const Skills = () => {
     return (
         <div className={s.wrapper} id={'skills'}>
             <Title title={'Skills'}/>
             <div className={s.skillsItems}>
+                <Fade triggerOnce direction={'up'} cascade={true} duration={500}>
                 <Item img={html} name={'HTML'} />
                 <Item img={css} name={'CSS'} />
                 <Item img={js} name={'JS'} />
@@ -28,6 +30,7 @@ export const Skills = () => {
                 <Item img={git} name={'GIT'} />
                 <Item img={ps} name={'PHOTOSHOP'} />
                 <Item img={figma} name={'FIGMA'} />
+                </Fade>
             </div>
         </div>
     );

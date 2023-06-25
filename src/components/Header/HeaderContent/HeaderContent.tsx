@@ -4,6 +4,7 @@ import {HeaderTextBox} from "./HeaderTextBox/HeaderTextBox";
 import person from '../../../assets/img/person.png'
 
 export const HeaderContent = () => {
+
     return (
         <div className={s.wrapper}>
             <HeaderTextBox/>

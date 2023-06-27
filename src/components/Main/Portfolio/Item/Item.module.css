@@ -13,8 +13,13 @@
     border-radius: 15px;
     background: #2A2B2F;
     box-shadow: -4px -4px 8px rgba(115, 115, 115, 0.2), 4px 4px 9px rgba(0, 0, 0, 0.26);
-
+    cursor: pointer;
     position: relative;
+}
+
+.item img{
+    width: 270px;
+    border-radius: 15px;
 }
 
 .link{

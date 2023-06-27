@@ -61,9 +61,9 @@ export const Nav = () => {
                 </li>
             </ul>
             <div className={s.socialsBox}>
-                <a className={s.socialsLink} href="#"><img src={linkedInImg} alt=""/>LinkedIn</a>
-                <a className={s.socialsLink} href="#"><img src={gitImg} alt=""/>Github</a>
-                <a className={s.socialsMail} href="#"><img src={mailImg} alt=""/></a>
+                <a className={s.socialsLink} href="https://www.linkedin.com/in/endy-guff/"><img src={linkedInImg} alt=""/>LinkedIn</a>
+                <a className={s.socialsLink} href="https://github.com/Endy-Guff"><img src={gitImg} alt=""/>Github</a>
+                <a className={s.socialsMail} href="mailto:andreymaranchak@gmail.com"><img src={mailImg} alt=""/></a>
             </div>
             <div className={navIconClass} onClick={navIconHandler}>
                 <span></span>

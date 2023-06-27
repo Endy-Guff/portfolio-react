@@ -12,7 +12,7 @@ export const Footer = () => {
             <div className={s.wrapper}>
                 <div className={s.items}>
                     <Item img={github} alt={'github'} link={'https://github.com/Endy-Guff'}/>
-                    <Item img={mail} alt={'mail'} link={'mailto:andreymaranchak@yandex.ru'}/>
+                    <Item img={mail} alt={'mail'} link={'mailto:andreymaranchak@gmail.com'}/>
                     <Item img={telegram} alt={'telegram'} link={'https://t.me/Endy_Guffi'}/>
                     <Item img={linkedin} alt={'linkedin'} link={'https://www.linkedin.com/in/endy-guff/'}/>
                 </div>

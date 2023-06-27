@@ -12,7 +12,7 @@ export const Item = (props: ItemPropsType) => {
         <div className={s.wrapper}>
             <div className={s.item}>
                 <img src={props.img} alt=""/>
-                <a className={s.link} href={props.link}>
+                <a className={s.link} href={props.link} target={'_blank'}>
                     <button className={s.btn}>View</button>
                 </a>
             </div>

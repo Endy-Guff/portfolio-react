@@ -74,4 +74,11 @@
     cursor: pointer;
     display: block;
     margin: 0 auto;
+    outline-offset: -2px;
+    outline: 2px solid #14F4D8;
+    transition: outline-offset .15s;
+}
+
+.formBtn:hover{
+    outline-offset: 2px;
 }

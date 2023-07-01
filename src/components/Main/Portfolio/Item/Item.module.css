@@ -40,7 +40,7 @@
 
 .link .btn{
     opacity: 0;
-    transition: .3s;
+    /*transition: opacity .3s;*/
 }
 
 .link:hover .btn{
@@ -60,6 +60,13 @@
     font-size: 18px;
     line-height: 14px;
     color: #14F4D8;
+    outline-offset: -2px;
+    outline: 2px solid #14F4D8;
+    transition: opacity .3s, outline-offset .15s;
+}
+
+.btn:hover{
+    outline-offset: 2px;
 }
 
 .name{

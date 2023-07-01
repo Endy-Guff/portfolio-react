@@ -26,6 +26,7 @@ export const Nav = () => {
                 <li className={s.item}>
                     <Link to="home"
                           smooth={true}
+                          onClick={()=>setNavIconActiveClass(!navIconActiveClass)}
                     >
                         <span>{String.fromCharCode(60)}</span>
                         Home
@@ -35,6 +36,7 @@ export const Nav = () => {
                 <li className={s.item}>
                     <Link to="skills"
                           smooth={true}
+                          onClick={()=>setNavIconActiveClass(!navIconActiveClass)}
                     >
                         <span>{String.fromCharCode(60)}</span>
                         Skills
@@ -44,6 +46,7 @@ export const Nav = () => {
                 <li className={s.item}>
                     <Link to="portfolio"
                           smooth={true}
+                          onClick={()=>setNavIconActiveClass(!navIconActiveClass)}
                     >
                         <span>{String.fromCharCode(60)}</span>
                         Portfolio
@@ -53,6 +56,7 @@ export const Nav = () => {
                 <li className={s.item}>
                     <Link to="contact"
                           smooth={true}
+                          onClick={()=>setNavIconActiveClass(!navIconActiveClass)}
                     >
                         <span>{String.fromCharCode(60)}</span>
                         Contact

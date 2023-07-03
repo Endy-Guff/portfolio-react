@@ -1,8 +1,3 @@
-body:has(.active) {
-    overflow-y: hidden;
-}
-
-
 .wrapper {
     display: flex;
     gap: 60px;
@@ -16,15 +11,7 @@ body:has(.active) {
 }
 
 
-.list.active {
-    animation: fadeIn .3s;
-    animation-fill-mode: none;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 80px;
-}
+
 
 .item a,
 .item span {
@@ -35,9 +22,7 @@ body:has(.active) {
     line-height: 21px;
 }
 
-.list.active .item a{
-    font-size: 50px;
-}
+
 
 .item a {
     font-family: "JetBrains Mono";
@@ -223,6 +208,22 @@ body:has(.active) {
         display: block;
         position: relative;
         z-index: 8;
+    }
+    .list.active .item a{
+        font-size: 50px;
+    }
+    body:has(.active) {
+        overflow-y: hidden;
+    }
+
+    .list.active {
+        animation: fadeIn .3s;
+        animation-fill-mode: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
     }
 
     .list {

@@ -10,6 +10,14 @@
     transition: .3s;
 }
 
+.link svg path{
+    transition: .3s;
+}
+
 .link:hover{
     background: #14F4D8;
+}
+
+.link:hover svg path{
+    fill: #2D2E32;
 }

@@ -6,6 +6,7 @@ import example from '../../../assets/img/portfolio/example.png'
 import kinoSearch from '../../../assets/img/portfolio/kino-search.jpg'
 import chat from '../../../assets/img/portfolio/chat.jpg'
 import socialNetwork from '../../../assets/img/portfolio/socialNetwork.jpg'
+import todoList from '../../../assets/img/portfolio/todo.jpg'
 import {Zoom} from "react-awesome-reveal";
 
 
@@ -18,6 +19,7 @@ export const Portfolio = () => {
                 <Item name={'Kino Search'} img={kinoSearch} link={'https://endy-guff.github.io/kino-search-react/'}/>
                 <Item name={'Chat'} img={chat} link={'https://endy-guff.github.io/React-chat-client/'}/>
                 <Item name={'Social Network'} img={socialNetwork} link={'https://endy-guff.github.io/samurai-way'}/>
+                <Item name={'Todo List'} img={todoList} link={'https://endy-guff.github.io/todoList/'}/>
                 </Zoom>
             </div>
         </div>
